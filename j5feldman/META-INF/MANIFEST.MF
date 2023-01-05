@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Created-By: Apache Jakarta Maven
+Built-By: martinc
+Package: org.apache.commons.fileupload
+Build-Jdk: 1.4.1_01
+Extension-Name: commons-fileupload
+Specification-Version: 
+Specification-Vendor: Apache Software Foundation
+Specification-Title: File upload component for Java servlets
+Implementation-Version: 1.0
+Implementation-Vendor: Apache Software Foundation
+Implementation-Vendor-Id: 
+

@@ -1,0 +1,26 @@
+<%@page language="java" contentType="text/html; charset=windows-1251" %>
+<%@page import = "j5feldman.*"%>
+<%@page import = "j5feldman.ex.*"%>
+<jsp:useBean id="ss" scope="session" class="j5feldman.Session" />
+<%request.setCharacterEncoding("windows-1251");
+try{ss.x();
+long L1 = System.currentTimeMillis();
+String type= request.getParameter("type");
+int i = Integer.parseInt(type);
+String on= request.getParameter("on");
+boolean b = on!=null&&!on.equals("");
+
+String status="fin";
+String line="type";
+String bg=" BACKGROUND='/feldman-root/style/"+line+"/bg.gif' ";
+
+    ss.setFin(i,b);
+            long L2 = System.currentTimeMillis();
+            status+=":"+(L2-L1)+" msec:";        
+%>
+<%@include  file="../../ok.jsp"%>
+<%}catch(ExFTS e2){%>
+<hr><%=e2.fts()%><hr>
+<%}catch(Exception e){%>
+<%@include  file="../../sorry.jsp"%>
+<%}%>

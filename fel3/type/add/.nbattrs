@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="add.jsp">
+        <attr name="Content-Encoding" stringvalue="windows-1251"/>
+    </fileobject>
+    <fileobject name="addform.jsp">
+        <attr name="Content-Encoding" stringvalue="windows-1251"/>
+    </fileobject>
+    <fileobject name="formcol.jsp">
+        <attr name="Content-Encoding" stringvalue="windows-1251"/>
+    </fileobject>
+    <fileobject name="formkey.jsp">
+        <attr name="Content-Encoding" stringvalue="windows-1251"/>
+    </fileobject>
+    <fileobject name="formpic.jsp">
+        <attr name="Content-Encoding" stringvalue="windows-1251"/>
+    </fileobject>
+    <fileobject name="top.jsp">
+        <attr name="Content-Encoding" stringvalue="windows-1251"/>
+    </fileobject>
+</attributes>

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: Яков
+Build-Jdk: 17.0.5
+mode: stable
+package: javax.servlet
+implementation-version: 6.1.2rc1
+Created-By: Maven Integration for Eclipse
+specification-version: 2.5
+url: http://jetty.mortbay.org
+implementation-vendor: JCP
+
